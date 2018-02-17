@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/chat_bg_right"
+        android:paddingBottom="8dp"
+        android:paddingEnd="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="14dp"
+        android:paddingStart="14dp"
+        android:paddingTop="8dp"
+        android:textColor="@android:color/black"
+        tools:text="Hi this is test message" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@drawable/ic_tick"
+        android:drawablePadding="2dp"
+        android:drawableStart="@drawable/ic_tick"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:text="Sent 12:10 pm" />
+</LinearLayout>

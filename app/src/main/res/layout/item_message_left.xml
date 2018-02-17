@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llMessageBg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/chat_bg_left_normal"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        tools:text="Hi this is test message" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:text="Sent 12:10 pm" />
+</android.support.v7.widget.LinearLayoutCompat>
